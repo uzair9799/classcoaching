@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+  <meta name="keywords" content="CLASS - Best coaching institute for CAT, GMAT, IPMAT, NMAT ,SNAP">
+	<meta name="description" content="CLASS - Best coaching institute for CAT, GMAT, IPMAT, NMAT ,SNAP">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="shortcut icon" href="assets/img/logo/transparent%20class%20logo.png" type="image/png">
+	<title>CLASS - Best coaching institute for CAT, GMAT, IPMAT, NMAT ,SNAP</title>
+	<!-- Fontawesome Icon -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- Icomoon Icon -->
+	<link rel="stylesheet" href="assets/fonts/style.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+	<!-- Aos Animation -->
+	<link rel="stylesheet" href="assets/css/aos.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Swiper -->
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+	<!-- Animate Css -->
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!-- Main Css File -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <div class="share-buttons">
+    <button class="" type="button" data-toggle="modal" data-target="#exampleModal">
+      <span class="float-icon4">Free Enquiry</span>
+    </button>
+    <a  href="https://wa.link/xcakb2" class="float-btn">
+        <span class="fa-brands fa-whatsapp float-icon1 " ></span>
+    </a>
+  
+    <a class="float-btn" href="https://www.instagram.com/class.edutech/?igsh=bHZlYW92NTc5aDR6" target="_blank" rel="noopener noreferrer" >
+        <span  class="fa-brands fa-instagram float-icon2"></span>
+    </a>
+    <a class="float-btn" href="tel:7877331414" target="_blank" rel="noopener noreferrer">
+      <span class="fa fa-phone float-icon3" ></span> 
+  </a>
+  </div>
+
+  <div class="modal fade" tabindex="-1" role="dialog"  id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog Counseling-modal" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title" >Send Your Enquiry & Our MBA Expert Will Get Back To You... </p>
+        </div>
+        <div class="modal-body">
+          <form  class="modal-form" id="enquiry-form" onsubmit="event.preventDefault(); SendWhatsapp();">
+            <div class="row">
+              <div class="form-group col-md-6 col-6">
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required/>
+              </div>
+              <div class="form-group col-md-6 col-6">
+                <input type="number" class="form-control" id="phn" placeholder="Your Mobile Number" required/>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="form-group col-md-6 col-6">
+                <input type="mail" class="form-control" id="email" placeholder="Your Email Address" required/>
+              </div>
+              <div class="form-group col-md-6 col-6">
+                <select name="select_course" id="course" class="form-control" required>
+                  <option value="" selected disabled>Select Course</option>
+                  <option value="cat">CAT</option>
+                  <option value="ipmat">IPMAT</option>
+                  <option value="gmat">GMAT</option>
+                  <option value="cuet">CUET</option>
+                  <option value="ielts">IELTS</option>
+                  <option value="nift">NIFT</option>
+                  <option value="ihm-jee">IHM-JEE</option>
+                </select>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="form-group col-md-6 col-6">
+                <select name="select_course" id="year" class="form-control" required>
+                  <option value="" selected disabled>Select Target Year</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6 col-6">
+                <select name="select_course" id="timeslot" class="form-control" required>
+                  <option value="" selected disabled >Select Time Slot</option>
+                  <option value="8:00 AM">8:00 AM-10:00 AM</option>
+                  <option value="10:00 AM">10:30 AM-12:30 PM</option>
+                  <option value="2:00 PM">2:00 PM-4:00 PM</option>
+                  <option value="4:00 PM">4:00 PM-6:00 PM</option>
+                  <option value="6:00 PM">6:30 PM-8:30 PM</option>
+                </select>
+              </div>
+            </div>
+          </form>
+          <div class="bg-map-form">
+            <img src="assets/img/contact-us/bg-map-contact-us.png" alt="bg-map-contact-us">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-enquiry" type="button" onclick="SendWhatsapp();">Send Enquiry</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+<!--==============================
+      Header Layout 1
+    ==============================-->
+    <header class="nav-header header-layout1">
+      <!--==============================
+          Header One Top Area
+          ==============================-->
+          <marquee behavior="" direction="left" style="font-size: 16px; font-weight: 500; background-color: rgba(229, 57, 53, 1); color: white; padding: 10px;">Jaipur, Get Ready! Our New Branch is Almost Here! We are Giving the Best Offers for New Students. Get a Flat 25% off on Registration.</marquee>
+    
+      <!--==============================
+          Top Content Info
+          ==============================-->
+          <div class="top-content-info">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-2">
+                  <div class="logo-img">
+                    <a href="index.html">
+                      <img class="logo-big-scr-img" src="assets/img/logo/transparent class logo.png" alt="CLASS-icon" />
+                    </a>
+                    <div class="navbar-right d-inline-flex d-lg-none">
+                      <button type="button" class="menu-toggle icon-btn">
+                        <i class="my-icon icon-all"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-lg-10">
+                  <div class="nav-middle-content">
+                    <div class="content-location">
+                      <div class="location-icon">
+                        <i class="my-icon icon-location"></i>
+                      </div>
+                      <div class="info-data">
+                        <a class="title" href="https://maps.app.goo.gl/iTh4pitNRc2HUNiG9">Jodhpur Center</a>
+                        <p class="para text">Click Here</p>
+                      </div>
+                    </div>
+                    <div class="content-location">
+                      <div class="location-icon">
+                        <i class="my-icon icon-location"></i>
+                      </div>
+                      <div class="info-data">
+                        <a class="title" href="https://maps.app.goo.gl/tYdz6NNdCCZfB34T9">Jaipur Center</a>
+                        <p class="para text">Click Here</p>
+                      </div>
+                    </div>
+                    <div class="content-address">
+                      <div class="address-icon">
+                        <i class="my-icon icon-massage"></i>
+                      </div>
+                      <div class="info-data">
+                        <a class="title" href="mailto:jodhpur.class@gmail.com">Email Address</a>
+                        <p class="para text">jodhpur.class@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+      <!--==============================
+          Sticky Wrapper
+        ==============================-->
+        <div class="sticky-wrapper">
+          <div class="menu-area">
+            <div class="container">
+              <div class="menu-area-content">
+                <div class="row align-items-center justify-content-between">
+                  <div class="col-auto">
+                    <nav class="main-menu d-none d-lg-inline-block">
+                      <ul>
+                        <li>
+                          <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                          <a href="about-us.html">About Us</a>
+                        </li>
+                        <li >
+                          <a href="courses-list.html">Our Courses</a>
+                          
+                        </li>
+                        <li>
+                          <a href="contact.html">Contact Us</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="col-auto">
+                    <div class="menu-area-right-content">
+                      <ul class="menu-social">
+                        <li>
+                          <a href="#"><i class="my-icon icon-facebook"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="my-icon icon-instagram"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="my-icon icon-twitter"></i></a>
+                        </li>
+                      </ul>
+                      <div class="menu-contact-number">
+                        <a href="tel:+917877331414" class="contact-number">+91-7877331414</a>
+                      </div>
+                      <div class="all-btn">
+                        <a href="https://class.tcyonline.com/login" class="btn-p v3">
+                          Student Zone
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--==============================
+          Mobile Menu Wrapper
+        ==============================-->
+        <div class="mobile-menu-wrapper">
+          <div class="mobile-menu-area text-center">
+            <button class="menu-toggle"><i class="fa-solid fa-xmark"></i></button>
+            <div class="mobile-logo">
+              <a href="index.html"><img class="logo-mobile-img" src="assets/img/logo/transparent class logo.png" alt="Edupls-logo"></a>
+            </div>
+            <div class="mobile-menu">
+              <ul>
+                <li>
+                  <a title="New Demo" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="about-us.html">About Us</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="courses-list.html">Our Courses</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+<section class="breadcum">
+<div class="container">
+    <div class="breadcum-content">
+        <h2 class="title">About Us</h2>
+        <h4 class="para"><a href="index.html">Home</a> / About Us</h4>
+    </div>
+</div>
+</section>
+<section class="case-studies v1 @ pt-120">
+    <div class="container-lg">
+        <div class="section-title center">
+            <div class="section-title-inner center w-v2">
+                <h4 class="sub-title" data-aos="fade-down" data-aos-duration="1000">ABOUT C.L.A.S.S.</h4>
+                <h2 class="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">Why People Choose Us?
+                </h2>
+                <p class="title-para sp-color-black" data-aos="fade-up" data-aos-duration="1000">With over 18+ years of teaching experience and a wealth of knowledge in Quantitative Aptitude and Logical Reasoning, we offer unparalleled guidance to help you achieve your best.</p>
+            </div>
+        </div>
+        <div class="case-studies-cards v1">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="case-studies-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <div class="card-img">
+                            <a href="#"><img src="assets/img/case-studies/1.jpg" alt="case-img"></a>
+                        </div>
+                        <div class="middle-design">
+                            <img src="assets/img/case-studies/case-middle-design.png" alt="middle-design">
+                        </div>
+                        <div class="card-content">
+                          <h3 class="title" style="color: rgba(229, 57, 53, 1);">Gold Medalist Faculty</h3>
+                          <p>Our lead instructor, Dinesh Mewara, is an M.Sc. Maths Gold Medalist and a serial CAT 99.9%iler, ensuring that you are learning from the best in the industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="case-studies-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <div class="card-img">
+                            <a href="#"><img src="assets/img/case-studies/2.jpg" alt="case-img"></a>
+
+                        </div>
+                        <div class="middle-design">
+                            <img src="assets/img/case-studies/case-middle-design.png" alt="middle-design">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title" style="color: rgba(229, 57, 53, 1);">18 Years of Experience</h3>
+                            <p>With extensive experience at prestigious institutions like PT Education, TIME, CL, IMS, KINGS Education, and CLAT Prep, our director, Dinesh Mewara sir, has guided thousands of students to success.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                  
+                    <div class="case-studies-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                        <div class="card-img">
+                            <a href="#"><img src="assets/img/case-studies/3.jpg" alt="case-img"></a>
+                        </div>
+                        <div class="middle-design">
+                            <img src="assets/img/case-studies/case-middle-design.png" alt="middle-design">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title" style="color: rgba(229, 57, 53, 1);">Outstanding Results</h3>
+                            <p>Under Dinesh's guidance, students have consistently excelled in CAT, CLAT, GMAT, and other exams, including CAT Quant 99.99%ilers and hundreds of top rankers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-left">
+      <img src="assets/img/about-us/v2/bg-left.png" alt="bg-left">
+  </div>
+</section>
+<section class="my-120 @"> 
+    <div class="container-xl">
+        <div class="about-us-content v3">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="section-title">
+                        <div class="section-title-inner">
+                            <h4 class="sub-title" data-aos="fade-down" data-aos-duration="1000">More About Us</h4>
+                            <h2 class="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">Expert Faculty Mentorship and Personalized Student Guidance</h2>
+                            <p class="title-para sp-color-black" data-aos="fade-up" data-aos-duration="1000">At our institute, every mentor is committed to providing a personalized learning experience. Our faculty is trained to understand each student's unique needs, offering guidance that goes beyond academics. From preparing students for top exam ranks to supporting personal growth, we ensure holistic development. Our mentors are always ready to help, whether it's through tailored teaching methods, 24/7 support, or mentoring students for success both inside and outside the classroom.</p>
+                        </div>
+                    </div>
+                    <ul class="check-box v2">
+                        <li class="box-item" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="item-icon">
+                                <i class="my-icon icon-checkmark"></i>
+                            </div>
+                            <p class="item-para">Personalized Counseling & Academic Mentorship</p>
+                        </li>
+                        <li class="box-item" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="item-icon">
+                                <i class="my-icon icon-checkmark"></i>
+                            </div>
+                            <p class="item-para">Adaptive Teaching Strategies Aligned with Student Goals</p>
+                        </li>
+                        <li class="box-item" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="item-icon">
+                                <i class="my-icon icon-checkmark"></i>
+                            </div>
+                            <p class="item-para">24/7 Support and Study Assistance</p>
+                        </li>
+                        <li class="box-item" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="item-icon">
+                                <i class="my-icon icon-checkmark"></i>
+                            </div>
+                            <p class="item-para">Guidance for Personal Development & Success Beyond Exams</p>
+                        </li>
+                    </ul>
+                    <div class="founder-ceo" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="founder-img">
+                            <img src="assets/img/about-us/Dinesh Mewara New.png" alt="founder-img">
+                        </div>
+                        <div class="founder-data">
+                            <h2 class="title">Mr.Dinesh Mewara  </h2>
+                            <b>Founder and Chief Mentor of institute</b>
+                            <p class="para">Our expert mentor tailors each course to the needs of our students, providing not only academic excellence but also the mentorship required for personal and professional success.</p>
+                        </div>
+                        <div class="ceo-sign-img">
+                            <img src="assets/img/about-us/v3/ceo-sign.png" alt="ceo-sign-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="about-us-left-content">
+                        <img src="assets/img/about-us/v3/more-about-us1.jpg" alt="right-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="skill-section @ py-100">
+    <div class="container">
+        <ul class="skill-items">
+            <li class="skill-item">
+                <div class="item-icon">
+                    <i class="my-icon icon-courses-completed"></i>
+                </div>
+                <div class="item-content">
+                    <h5 class="title"><span class="counter">4.8</span>K+</h5>
+                    <p class="para">courses COMPLETED</p>
+                </div>
+            </li>
+            <li class="skill-item">
+                <div class="item-icon">
+                    <i class="my-icon icon-media-activities"></i>
+                </div>
+                <div class="item-content">
+                    <h5 class="title"><span class="counter">300</span>+</h5>
+                    <p class="para">MEDIA ACTIVITIES</p>
+                </div>
+            </li>
+            <li class="skill-item">
+                <div class="item-icon">
+                    <i class="my-icon icon-skill-expert"></i>
+                </div>
+                <div class="item-content">
+                    <h5 class="title"><span class="counter">60</span>+</h5>
+                    <p class="para">SKILLED EXPERTS</p>
+                </div>
+            </li>
+            <li class="skill-item">
+                <div class="item-icon">
+                    <i class="my-icon icon-happy-students"></i>
+                </div>
+                <div class="item-content">
+                    <h5 class="title"><span class="counter">20</span>K+</h5>
+                    <p class="para">HAPPY Students</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="skill-left-img">
+        <img src="assets/img/skill-section/skill-left-img.png" alt="skill-left-img">
+    </div>
+    <div class="skill-right-img">
+        <img src="assets/img/skill-section/skill-right-img.png" alt="skill-right-img">
+    </div>
+</section>
+
+
+  <section class="gallery v1 @">
+    <div class="container-lg">
+        <div class="section-title center">
+            <div class="section-title-inner center w-v2">
+                <h4 class="sub-title" data-aos="fade-down" data-aos-duration="1000">Gallery</h4>
+                <h2 class="big-title s-color-black" data-aos="fade-up" data-aos-duration="1000">Our Gallery
+                </h2>
+                <p class="title-para sp-color-black" data-aos="fade-up" data-aos-duration="1000">Explore our gallery showcasing vibrant moments from classroom sessions, student achievements, and events that define our institute's excellence. Witness the passion and dedication that drive success every day.</p>
+            </div>
+        </div>
+    
+          <div class="row gallery-row1" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-lg-3 col-md-3 ps-0 pe-0 cls">
+              <img src="assets\img\about-us\gallery1.jpg" alt=""/>
+              <div class="pos-div" data-aos="fade-up" data-aos-duration="1000">
+                <h5>Class Rooms</h5>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-9 ps-0 pe-0">
+              <div class="row gallery-row2">
+                <div class="col-lg-8 col-md-8 ps-0 pe-0 cls">
+                  <img src="assets\img\about-us\gallery2.jpeg" alt="" />
+                  <div class="pos-div" data-aos="fade-up" data-aos-duration="1000">
+                    <h5>Reception</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 ps-0 pe-0 cls">
+                  <img src="assets\img\about-us\gallery3.jfif" alt="" />
+                  <div class="pos-div" data-aos="fade-up" data-aos-duration="1000">
+                    <h5>Lecture</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 ps-0 pe-0 cls">
+                  <img src="assets\img\about-us\gallery8.jpg" alt="" />
+                </div>
+                <div class="col-lg-8 col-md-8 ps-0 pe-0 cls">
+                  <img src="assets\img\about-us\gallery4.jpeg" alt="" />
+                  <div class="pos-div" data-aos="fade-up" data-aos-duration="1000">
+                    <h5>Students Counseling</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 ps-0 pe-0 cls">
+              <img src="assets\img\about-us\gallery5.jpeg" alt="" />
+              <div class="pos-div" data-aos="fade-up" data-aos-duration="1000">
+                <h5>Seminar Hall</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 ps-0 pe-0 cls">
+              <img src="assets\img\about-us\gallery6.jpeg" alt="" />
+              <div class="pos-div" data-aos="fade-up" data-aos-duration="1000">
+                <h5>Career Guide</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 ps-0 pe-0 cls">
+              <img src="assets\img\about-us\gallery7.jfif" alt="" />
+              <div class="pos-div" data-aos="fade-up" data-aos-duration="1000">
+                <h5>Personal Doubt Session</h5>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+  <footer class="footer-section v2">
+    <div class="footer-content v2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img class="logo-footer-img" src="assets/img/logo/class_logo.png" alt="logo">
+                    </div>
+                    <p class="widget-para">C.L.A.S.S.- The Best Coaching Institute for CAT, GMAT, IELTS, IPMAT, CLAT, CUET, NIFT, IIHM-JEE</p>
+                    
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                <div class="footer-widget">
+                    <h4 class="widget-title">Quick Links</h4>
+                    <ul class="quick-links">
+                        <li>
+                            <a href="index.html">Home  </a>
+                        </li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        
+                        <li>
+                            <a href="courses-list.html">Explore Courses</a>
+                        </li>
+                        <li>
+                            <a href="contact.html"> Contact Us </a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+           
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                <div class="footer-widget d-none d-lg-inline-block">
+                    <h4 class="widget-title">Get Newsletter</h4>
+                    <div class="get-newsletter">
+                        <p class="para">Get 10% off your first order! Hurry up</p>
+                        <div class="email-address">
+                            <form>
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="search" placeholder="Enter email address">
+                            </form>
+                        </div>
+                        <div class="all-btn">
+                            <a href="#" class="btn-p v2 btn-blue2 rounded">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+            <ul class="footer-contact-info">
+                <li class="contact-data">
+                    <div class="data-icon">
+                        <i class="my-icon icon-location"></i>
+                    </div>
+                    <div class="data-info">
+                        <h5 class="para">C.L.A.S.S. Location</h5>
+                        <h4 class="title"><a href="https://maps.app.goo.gl/iTh4pitNRc2HUNiG9">Jodhpur</a></h4>
+                    </div>
+                </li>
+                <li class="contact-data">
+                  <div class="data-icon">
+                      <i class="my-icon icon-location"></i>
+                  </div>
+                  <div class="data-info">
+                      <h5 class="para">C.L.A.S.S. Location</h5>
+                      <h4 class="title"><a href="https://maps.app.goo.gl/tYdz6NNdCCZfB34T9">Jaipur</a></h4>
+                  </div>
+              </li>
+                <li class="contact-data">
+                    <div class="data-icon">
+                        <i class="my-icon icon-massage mail-icon"></i>
+                    </div>
+                    <div class="data-info">
+                        <h5 class="para">e-mail address</h5>
+                        <h4 class="title"><a href="mailto:jodhpur.class@gmail.com">jodhpur.class@gmail.com</a></h4>
+                    </div>
+                </li>
+                <li class="contact-data">
+                    <div class="data-icon">
+                        <i class="my-icon icon-call-us"></i>
+                    </div>
+                    <div class="data-info">
+                        <h5 class="para" >phone Number</h5>
+                        <h4 class="title"><a href="tel:+917877331414">+91 7877331414</a></h4>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <div class="copyright-section v2">
+        <div class="container">
+            <div class="copyright-content">
+                <div class="left-content">
+                    <p class="para">© 2024 <a href="#"><span>C.L.A.S.S</span> </a>All Rights Reserved.</p>
+                </div>
+                <div class="right-content">
+                    <p class="progenx-p">Developed By <a href="https://progx.in/" >Pro GenX</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+  function SendWhatsapp(){
+    const enquiry_form = document.getElementById('enquiry-form');
+    if (!enquiry_form.checkValidity()) {
+      enquiry_form.reportValidity();
+                return;
+            }
+    var phonenumber="+917877331414";
+    var name = document.querySelector('#name').value;
+    var mobile = document.querySelector('#phn').value;
+    var email = document.querySelector('#email').value;
+    var course = document.querySelector('#course').value;
+    var target_year = document.querySelector('#year').value;
+    var time_slot = document.querySelector('#timeslot').value;
+    var message = 
+        "Hello,%0a%0a" +
+        "I am interested in your services and would like to inquire about the following:%0a%0a" +
+        "*Name:* " + name + "%0a" +
+        "*Phone Number:* " + mobile + "%0a" +
+        "*Email:* " + email + "%0a" +
+        "*Course:* " + course + "%0a" +
+        "*Target Year:* " + target_year + "%0a" +
+        "*Time Slot:* " + time_slot + "%0a%0a" +
+        "Could you please provide more details and let me know how we can proceed? I look forward to your response.%0a%0a" +
+        "Thank you!";
+    var url = "https://wa.me/" + phonenumber + "?text=" + message;
+
+    window.open(url,'_blank').focus();
+  }
+</script>
+
+<!-- Jquery -->
+<script src="assets/js/jquery.min.js"></script>
+
+<!-- bootstrap -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- Anime Js -->
+<script src="assets/js/anime.min.js"></script>
+<!-- Swiper Js -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- Gsap -->
+<script src="assets/js/gsap.min.js"></script>
+<!-- ScrollTrigger -->
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<!-- Counter Up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- Waypoints -->
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<!-- Magnific Popup -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Countdown -->
+<script src="assets/js/jquery.countdown.min.js"></script>
+<!-- Aos -->
+<script src="assets/js/aos.js"></script>
+<!-- Main Js File -->
+<script src="assets/js/index.js"></script>
+</body>
+</html>
